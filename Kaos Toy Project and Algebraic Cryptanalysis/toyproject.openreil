@@ -1,0 +1,471 @@
+*** Folding constants...
+DFG node "40110d.03 OR" has no input edges
+DFG node "40110b.08 AND" has no input edges
+DFG node "4010ef.1f XOR" has no input edges
+DFG node "40110d.06 AND" has no input edges
+DFG node "40110d.08 AND" has no input edges
+DFG node "40110b.01 OR" has no input edges
+DFG node "40110b.06 AND" has no input edges
+DFG node "40110d.01 OR" has no input edges
+DFG node "40110b.03 OR" has no input edges
+*** 0 nodes deleted
+*** Optimizing temp registers usage...
+DFG node "40110d.25 STR" sets value "V_05:32" of "R_EBX:32"
+DFG node "40111d.00 STR" sets value "R_ESP:32" of "V_00:32"
+Updating arg V_00 of DFG node "40111d.01 SUB" to V_00
+DFG node "4010fc.02 STR" sets value "V_01:32" of "R_EDI:32"
+DFG node "4010ff.00 STR" sets value "R_EBP:32" of "V_00:32"
+Updating arg V_00 of DFG node "4010ff.01 ADD" to V_00
+DFG node "4010ec.03 STR" sets value "V_02:32" of "R_ESP:32"
+DFG node "401119.02 STR" sets value "V_01:32" of "R_EAX:32"
+DFG node "401105.00 STR" sets value "R_DFLAG:32" of "V_00:32"
+Updating arg V_00 of DFG node "401105.06 ADD" to V_00
+DFG node "40110a.00 STR" sets value "R_DFLAG:32" of "V_00:32"
+Updating arg V_00 of DFG node "40110a.05 ADD" to V_00
+DFG node "401122.05 STR" sets value "V_02:32" of "R_ESP:32"
+DFG node "40110b.1e STR" sets value "R_EFLAGS:32" of "V_28:32"
+DFG node "4010ec.00 STR" sets value "R_EBP:32" of "V_00:32"
+Updating arg V_00 of DFG node "4010ec.04 STM" to V_00
+DFG node "401102.03 STR" sets value "V_02:32" of "R_EBX:32"
+DFG node "401122.03 STR" sets value "V_01:32" of "R_EBP:32"
+DFG node "401111.00 STR" sets value "R_EDI:32" of "V_00:32"
+Updating arg V_00 of DFG node "401111.01 STM" to V_00
+DFG node "40110a.06 STR" sets value "V_04:32" of "R_EDI:32"
+DFG node "401123.03 STR" sets value "V_02:32" of "R_ESP:32"
+DFG node "40110b.25 STR" sets value "V_05:32" of "R_EDX:32"
+DFG node "401122.01 STR" sets value "V_00:32" of "R_ESP:32"
+DFG node "4010ff.03 STR" sets value "V_02:32" of "R_EDX:32"
+DFG node "4010ed.01 STR" sets value "V_00:32" of "R_EBP:32"
+DFG node "40111c.03 STR" sets value "V_02:32" of "R_ESP:32"
+DFG node "4010fc.00 STR" sets value "R_EBP:32" of "V_00:32"
+Updating arg V_00 of DFG node "4010fc.01 ADD" to V_00
+DFG node "40111c.00 STR" sets value "R_EAX:32" of "V_00:32"
+Updating arg V_00 of DFG node "40111c.04 STM" to V_00
+DFG node "4010ec.01 STR" sets value "R_ESP:32" of "V_01:32"
+Updating arg V_01 of DFG node "4010ec.02 SUB" to V_01
+DFG node "40110f.02 STR" sets value "V_01:32" of "R_ECX:32"
+DFG node "401114.02 STR" sets value "V_01:32" of "R_ESP:32"
+DFG node "401102.00 STR" sets value "R_EBP:32" of "V_00:32"
+Updating arg V_00 of DFG node "401102.01 ADD" to V_00
+DFG node "40110d.00 STR" sets value "R_EBX:32" of "V_00:32"
+Updating arg V_00 of DFG node "40110d.02 SHR" to V_00
+Updating arg V_00 of DFG node "40110d.04 SHL" to V_00
+DFG node "40111d.02 STR" sets value "V_01:32" of "R_ESP:32"
+DFG node "401123.00 STR" sets value "R_ESP:32" of "V_00:32"
+Updating arg V_00 of DFG node "401123.01 LDM" to V_00
+Updating arg V_00 of DFG node "401123.02 ADD" to V_00
+DFG node "40110b.00 STR" sets value "R_EDX:32" of "V_00:32"
+Updating arg V_00 of DFG node "40110b.02 SHR" to V_00
+Updating arg V_00 of DFG node "40110b.04 SHL" to V_00
+DFG node "4010ed.00 STR" sets value "R_ESP:32" of "R_EBP:32"
+DFG node "401114.00 STR" sets value "R_ESP:32" of "V_00:32"
+Updating arg V_00 of DFG node "401114.01 SUB" to V_00
+DFG node "4010ef.00 STR" sets value "R_ESP:32" of "V_00:32"
+Updating arg V_00 of DFG node "4010ef.02 ADD" to V_00
+Updating arg V_00 of DFG node "4010ef.03 LT" to V_00
+Updating arg V_00 of DFG node "4010ef.17 XOR" to V_00
+Updating arg V_00 of DFG node "4010ef.01 ADD" to V_00
+Updating arg V_00 of DFG node "4010ef.20 XOR" to V_00
+Updating arg V_00 of DFG node "4010ef.21 XOR" to V_00
+DFG node "40111c.01 STR" sets value "R_ESP:32" of "V_01:32"
+Updating arg V_01 of DFG node "40111c.02 SUB" to V_01
+DFG node "401105.01 STR" sets value "R_ESI:32" of "V_01:32"
+Updating arg V_01 of DFG node "401105.02 LDM" to V_01
+Updating arg V_01 of DFG node "401105.06 ADD" to V_01
+DFG node "40110a.03 STR" sets value "R_EDI:32" of "V_03:32"
+Updating arg V_03 of DFG node "40110a.05 ADD" to V_03
+Updating arg V_03 of DFG node "40110a.04 STM" to V_03
+DFG node "40110d.1e STR" sets value "R_EFLAGS:32" of "V_28:32"
+DFG node "401122.00 STR" sets value "R_EBP:32" of "V_00:32"
+DFG node "40110f.00 STR" sets value "R_ECX:32" of "V_00:32"
+Updating arg V_00 of DFG node "40110f.01 SUB" to V_00
+DFG node "401119.00 STR" sets value "R_EBP:32" of "V_00:32"
+Updating arg V_00 of DFG node "401119.01 ADD" to V_00
+DFG node "401105.07 STR" sets value "V_05:32" of "R_ESI:32"
+DFG node "4010ef.26 STR" sets value "V_01:32" of "R_ESP:32"
+DFG node "40110d.25 STR" sets value "V_05:32" of "R_EBX:32"
+DFG node "4010ec.03 STR" sets value "V_02:32" of "R_ESP:32"
+DFG node "401123.03 STR" sets value "V_02:32" of "R_ESP:32"
+DFG node "40110b.25 STR" sets value "V_05:32" of "R_EDX:32"
+DFG node "401122.01 STR" sets value "V_00:32" of "R_ESP:32"
+DFG node "40111c.03 STR" sets value "V_02:32" of "R_ESP:32"
+DFG node "40110f.02 STR" sets value "V_01:32" of "R_ECX:32"
+DFG node "401114.02 STR" sets value "V_01:32" of "R_ESP:32"
+DFG node "40111d.02 STR" sets value "V_01:32" of "R_ESP:32"
+DFG node "4010ed.00 STR" sets value "R_ESP:32" of "R_EBP:32"
+DFG node "401122.00 STR" sets value "R_EBP:32" of "V_00:32"
+*** 32 nodes deleted
+*** Eliminating dead code...
+Eliminating V_13 that live at the end of the function...
+Eliminating V_24 that live at the end of the function...
+Eliminating V_03 that live at the end of the function...
+Eliminating V_06 that live at the end of the function...
+Eliminating V_35 that live at the end of the function...
+Eliminating V_25 that live at the end of the function...
+Eliminating R_AF that live at the end of the function...
+Eliminating V_22 that live at the end of the function...
+Eliminating R_ZF that live at the end of the function...
+Eliminating V_21 that live at the end of the function...
+Eliminating V_16 that live at the end of the function...
+Eliminating V_12 that live at the end of the function...
+Eliminating V_31 that live at the end of the function...
+Eliminating V_33 that live at the end of the function...
+Eliminating V_08 that live at the end of the function...
+Eliminating R_OF that live at the end of the function...
+Eliminating V_34 that live at the end of the function...
+Eliminating V_04 that live at the end of the function...
+Eliminating R_SF that live at the end of the function...
+Eliminating V_19 that live at the end of the function...
+Eliminating V_10 that live at the end of the function...
+Eliminating V_05 that live at the end of the function...
+Eliminating V_11 that live at the end of the function...
+Eliminating V_18 that live at the end of the function...
+Eliminating V_36 that live at the end of the function...
+Eliminating V_27 that live at the end of the function...
+Eliminating V_29 that live at the end of the function...
+Eliminating V_01 that live at the end of the function...
+Eliminating V_07 that live at the end of the function...
+Eliminating V_14 that live at the end of the function...
+Eliminating V_32 that live at the end of the function...
+Eliminating V_20 that live at the end of the function...
+Eliminating V_09 that live at the end of the function...
+Eliminating V_26 that live at the end of the function...
+Eliminating V_38 that live at the end of the function...
+Eliminating V_17 that live at the end of the function...
+Eliminating V_37 that live at the end of the function...
+Eliminating V_23 that live at the end of the function...
+Eliminating V_15 that live at the end of the function...
+Eliminating R_PF that live at the end of the function...
+Eliminating V_30 that live at the end of the function...
+Eliminating R_CF that live at the end of the function...
+Eliminating V_02 that live at the end of the function...
+DFG node "4010ef.25 EQ" has no output edges
+DFG node "4010ef.16 NOT" has no output edges
+DFG node "4010ef.03 LT" has no output edges
+DFG node "401106.21 EQ" has no output edges
+DFG node "4010ef.15 OR" has no output edges
+DFG node "40110d.24 XOR" has no output edges
+DFG node "401122.01 STR" has no output edges
+DFG node "4010ef.24 AND" has no output edges
+DFG node "401106.24 EQ" has no output edges
+DFG node "4010ef.1b EQ" has no output edges
+DFG node "4010ef.14 AND" has no output edges
+DFG node "401106.09 LT" has no output edges
+DFG node "401106.1c NOT" has no output edges
+DFG node "4010ef.1e EQ" has no output edges
+DFG node "401106.23 AND" has no output edges
+DFG node "40110d.20 OR" has no output edges
+DFG node "4010ef.1d AND" has no output edges
+DFG node "4010ef.1a EQ" has no output edges
+DFG node "401106.2a EQ" has no output edges
+DFG node "4010ef.19 AND" has no output edges
+DFG node "401106.20 EQ" has no output edges
+DFG node "4010ef.23 SHR" has no output edges
+DFG node "4010ef.1c SHR" has no output edges
+DFG node "401106.1b OR" has no output edges
+DFG node "4010ef.13 XOR" has no output edges
+DFG node "4010ef.0c XOR" has no output edges
+DFG node "40110d.23 OR" has no output edges
+DFG node "4010ef.18 XOR" has no output edges
+DFG node "4010ef.22 AND" has no output edges
+DFG node "401106.1f AND" has no output edges
+DFG node "401106.22 SHR" has no output edges
+DFG node "4010ef.08 XOR" has no output edges
+DFG node "4010ef.21 XOR" has no output edges
+DFG node "4010ef.12 XOR" has no output edges
+DFG node "4010ef.0f XOR" has no output edges
+DFG node "4010ef.11 XOR" has no output edges
+DFG node "4010ef.0b XOR" has no output edges
+DFG node "40110d.1f AND" has no output edges
+DFG node "4010ef.20 XOR" has no output edges
+DFG node "4010ef.0e SHR" has no output edges
+DFG node "401106.1a AND" has no output edges
+DFG node "4010ef.10 SHR" has no output edges
+DFG node "401106.29 AND" has no output edges
+DFG node "4010ef.0d SHR" has no output edges
+DFG node "4010ef.17 XOR" has no output edges
+DFG node "4010ef.0a SHR" has no output edges
+DFG node "4010ef.07 SHR" has no output edges
+DFG node "401106.1e XOR" has no output edges
+DFG node "4010ef.09 SHR" has no output edges
+DFG node "40110d.22 AND" has no output edges
+DFG node "4010ef.06 SHR" has no output edges
+DFG node "4010ef.1f XOR" has no output edges
+DFG node "4010ef.05 OR" has no output edges
+DFG node "40110d.21 SHR" has no output edges
+DFG node "401106.28 SHR" has no output edges
+DFG node "4010ef.04 AND" has no output edges
+DFG node "401106.19 XOR" has no output edges
+DFG node "401106.27 AND" has no output edges
+DFG node "401106.1d XOR" has no output edges
+DFG node "401106.12 XOR" has no output edges
+DFG node "401106.25 XOR" has no output edges
+DFG node "401106.18 XOR" has no output edges
+DFG node "4010ef.02 ADD" has no output edges
+DFG node "401106.26 XOR" has no output edges
+DFG node "401106.17 XOR" has no output edges
+DFG node "401106.0e XOR" has no output edges
+DFG node "401106.11 XOR" has no output edges
+DFG node "401106.0f SHR" has no output edges
+DFG node "401106.15 XOR" has no output edges
+DFG node "401106.16 SHR" has no output edges
+DFG node "401106.0c SHR" has no output edges
+DFG node "401106.13 SHR" has no output edges
+DFG node "401106.0d SHR" has no output edges
+DFG node "401106.10 SHR" has no output edges
+DFG node "401106.14 SHR" has no output edges
+DFG node "401106.0b OR" has no output edges
+DFG node "401106.0a AND" has no output edges
+DFG node "401106.08 AND" has no output edges
+DFG node "401106.07 SUB" has no output edges
+DFG node "401106.05 OR" has no output edges
+DFG node "401106.06 OR" has no output edges
+*** 81 nodes deleted
+; sub_004010ec()
+; Stack args size: 0x2
+; Code chunks: 0x4010ec-0x401125
+; --------------------------------
+;
+; asm: push ebp
+; data (1): 55
+;
+004010ec.00     SUB         R_ESP:32,             4:32,          V_02:32
+004010ec.01     STR          V_02:32,                 ,         R_ESP:32
+004010ec.02     STM         R_EBP:32,                 ,          V_02:32
+;
+; asm: mov ebp, esp
+; data (2): 8b ec
+;
+004010ed.00     STR         R_ESP:32,                 ,         R_EBP:32
+;
+; asm: add esp, -0x24
+; data (3): 83 c4 dc
+;
+004010ef.00     ADD         R_ESP:32,      ffffffdc:32,         R_ESP:32
+;
+; asm: mov ecx, 0x20
+; data (5): b9 20 00 00 00
+;
+004010f2.00     STR            20:32,                 ,         R_ECX:32
+;
+; asm: mov esi, 0x4093a8
+; data (5): be a8 93 40 00
+;
+004010f7.00     STR        4093a8:32,                 ,         R_ESI:32
+;
+; asm: lea edi, [ebp - 0x21]
+; data (3): 8d 7d df
+;
+004010fc.00     ADD         R_EBP:32,      ffffffdf:32,         R_EDI:32
+;
+; asm: mov edx, dword ptr [ebp + 8]
+; data (3): 8b 55 08
+;
+004010ff.00     ADD         R_EBP:32,             8:32,          V_01:32
+004010ff.01     LDM          V_01:32,                 ,         R_EDX:32
+;
+; asm: mov ebx, dword ptr [ebp + 0xc]
+; data (3): 8b 5d 0c
+;
+00401102.00     ADD         R_EBP:32,             c:32,          V_01:32
+00401102.01     LDM          V_01:32,                 ,         R_EBX:32
+;
+; asm: lodsb al, byte ptr [esi]
+; data (1): ac
+;
+00401105.00     LDM         R_ESI:32,                 ,           V_02:8
+00401105.01     AND         R_EAX:32,      ffffff00:32,          V_03:32
+00401105.02      OR           V_02:8,              0:8,          V_04:32
+00401105.03      OR          V_03:32,          V_04:32,         R_EAX:32
+00401105.04     ADD         R_ESI:32,       R_DFLAG:32,         R_ESI:32
+;
+; asm: sub al, bl
+; data (2): 2a c3
+;
+00401106.00     AND         R_EAX:32,            ff:32,          V_01:32
+00401106.01      OR          V_01:32,             0:32,           V_00:8
+00401106.02     AND         R_EBX:32,            ff:32,          V_03:32
+00401106.03      OR          V_03:32,             0:32,           V_02:8
+00401106.04     SUB           V_00:8,           V_02:8,           V_04:8
+00401106.05     AND         R_EAX:32,      ffffff00:32,          V_37:32
+00401106.06      OR           V_04:8,              0:8,          V_38:32
+00401106.07      OR          V_37:32,          V_38:32,         R_EAX:32
+;
+; asm: xor al, dl
+; data (2): 32 c2
+;
+00401108.00     AND         R_EAX:32,            ff:32,          V_01:32
+00401108.01      OR          V_01:32,             0:32,           V_00:8
+00401108.02     AND         R_EDX:32,            ff:32,          V_03:32
+00401108.03      OR          V_03:32,             0:32,           V_02:8
+00401108.04     XOR           V_00:8,           V_02:8,           V_04:8
+00401108.05      OR           V_04:8,              0:8,          V_05:32
+00401108.06     STR              0:1,                 ,           R_CF:1
+00401108.07     AND          V_05:32,            ff:32,          V_07:32
+00401108.08      OR          V_07:32,             0:32,           V_06:8
+00401108.09     SHR           V_06:8,              7:8,           V_08:8
+00401108.0a     SHR           V_06:8,              6:8,           V_09:8
+00401108.0b     XOR           V_08:8,           V_09:8,           V_10:8
+00401108.0c     SHR           V_06:8,              5:8,           V_11:8
+00401108.0d     SHR           V_06:8,              4:8,           V_12:8
+00401108.0e     XOR           V_11:8,           V_12:8,           V_13:8
+00401108.0f     XOR           V_10:8,           V_13:8,           V_14:8
+00401108.10     SHR           V_06:8,              3:8,           V_15:8
+00401108.11     SHR           V_06:8,              2:8,           V_16:8
+00401108.12     XOR           V_15:8,           V_16:8,           V_17:8
+00401108.13     SHR           V_06:8,              1:8,           V_18:8
+00401108.14     XOR           V_18:8,           V_06:8,           V_19:8
+00401108.15     XOR           V_17:8,           V_19:8,           V_20:8
+00401108.16     XOR           V_14:8,           V_20:8,           V_21:8
+00401108.17     AND           V_21:8,              1:8,           V_23:8
+00401108.18      OR           V_23:8,              0:8,           V_22:1
+00401108.19     NOT           V_22:1,                 ,           R_PF:1
+00401108.1a     STR              0:1,                 ,           R_AF:1
+00401108.1b      EQ          V_05:32,             0:32,           R_ZF:1
+00401108.1c     SHR          V_05:32,             7:32,          V_24:32
+00401108.1d     AND             1:32,          V_24:32,          V_25:32
+00401108.1e      EQ             1:32,          V_25:32,           R_SF:1
+00401108.1f     STR              0:1,                 ,           R_OF:1
+00401108.20     AND         R_EAX:32,      ffffff00:32,          V_26:32
+00401108.21      OR           V_04:8,              0:8,          V_27:32
+00401108.22      OR          V_26:32,          V_27:32,         R_EAX:32
+;
+; asm: stosb byte ptr es:[edi], al
+; data (1): aa
+;
+0040110a.00     AND         R_EAX:32,            ff:32,          V_02:32
+0040110a.01      OR          V_02:32,             0:32,           V_01:8
+0040110a.02     STM           V_01:8,                 ,         R_EDI:32
+0040110a.03     ADD         R_EDI:32,       R_DFLAG:32,         R_EDI:32
+;
+; asm: rol edx, 1
+; data (2): d1 c2
+;
+0040110b.00      OR             1f:8,              0:8,          V_01:32
+0040110b.01     SHR         R_EDX:32,          V_01:32,          V_02:32
+0040110b.02      OR              1:8,              0:8,          V_03:32
+0040110b.03     SHL         R_EDX:32,          V_03:32,          V_04:32
+0040110b.04      OR          V_04:32,          V_02:32,          V_05:32
+0040110b.05     AND      fffffffe:32,      fffffffb:32,          V_06:32
+0040110b.06     AND      R_EFLAGS:32,          V_06:32,          V_07:32
+0040110b.07     AND      ffffffbf:32,      ffffff7f:32,          V_08:32
+0040110b.08     AND      ffffffef:32,          V_08:32,          V_09:32
+0040110b.09     AND          V_09:32,      fffff7ff:32,          V_10:32
+0040110b.0a     AND          V_07:32,          V_10:32,      R_EFLAGS:32
+0040110b.0b      OR           R_CF:1,              0:1,          V_11:32
+0040110b.0c     SHL          V_11:32,             0:32,          V_12:32
+0040110b.0d      OR           R_PF:1,              0:1,          V_13:32
+0040110b.0e     SHL          V_13:32,             2:32,          V_14:32
+0040110b.0f      OR          V_12:32,          V_14:32,          V_15:32
+0040110b.10      OR      R_EFLAGS:32,          V_15:32,          V_16:32
+0040110b.11      OR           R_AF:1,              0:1,          V_17:32
+0040110b.12     SHL          V_17:32,             4:32,          V_18:32
+0040110b.13      OR           R_ZF:1,              0:1,          V_19:32
+0040110b.14     SHL          V_19:32,             6:32,          V_20:32
+0040110b.15      OR           R_SF:1,              0:1,          V_21:32
+0040110b.16     SHL          V_21:32,             7:32,          V_22:32
+0040110b.17      OR          V_20:32,          V_22:32,          V_23:32
+0040110b.18      OR          V_18:32,          V_23:32,          V_24:32
+0040110b.19      OR           R_OF:1,              0:1,          V_25:32
+0040110b.1a     SHL          V_25:32,             b:32,          V_26:32
+0040110b.1b      OR          V_24:32,          V_26:32,          V_27:32
+0040110b.1c      OR          V_16:32,          V_27:32,      R_EFLAGS:32
+0040110b.1d     AND          V_05:32,             1:32,          V_29:32
+0040110b.1e      OR          V_29:32,             0:32,           R_CF:1
+0040110b.1f     SHR          V_05:32,            1f:32,          V_30:32
+0040110b.20     AND          V_30:32,             1:32,          V_32:32
+0040110b.21      OR          V_32:32,             0:32,           V_31:1
+0040110b.22     XOR           R_CF:1,           V_31:1,           R_OF:1
+0040110b.23     STR          V_05:32,                 ,         R_EDX:32
+;
+; asm: rol ebx, 1
+; data (2): d1 c3
+;
+0040110d.00      OR             1f:8,              0:8,          V_01:32
+0040110d.01     SHR         R_EBX:32,          V_01:32,          V_02:32
+0040110d.02      OR              1:8,              0:8,          V_03:32
+0040110d.03     SHL         R_EBX:32,          V_03:32,          V_04:32
+0040110d.04      OR          V_04:32,          V_02:32,          V_05:32
+0040110d.05     AND      fffffffe:32,      fffffffb:32,          V_06:32
+0040110d.06     AND      R_EFLAGS:32,          V_06:32,          V_07:32
+0040110d.07     AND      ffffffbf:32,      ffffff7f:32,          V_08:32
+0040110d.08     AND      ffffffef:32,          V_08:32,          V_09:32
+0040110d.09     AND          V_09:32,      fffff7ff:32,          V_10:32
+0040110d.0a     AND          V_07:32,          V_10:32,      R_EFLAGS:32
+0040110d.0b      OR           R_CF:1,              0:1,          V_11:32
+0040110d.0c     SHL          V_11:32,             0:32,          V_12:32
+0040110d.0d      OR           R_PF:1,              0:1,          V_13:32
+0040110d.0e     SHL          V_13:32,             2:32,          V_14:32
+0040110d.0f      OR          V_12:32,          V_14:32,          V_15:32
+0040110d.10      OR      R_EFLAGS:32,          V_15:32,          V_16:32
+0040110d.11      OR           R_AF:1,              0:1,          V_17:32
+0040110d.12     SHL          V_17:32,             4:32,          V_18:32
+0040110d.13      OR           R_ZF:1,              0:1,          V_19:32
+0040110d.14     SHL          V_19:32,             6:32,          V_20:32
+0040110d.15      OR           R_SF:1,              0:1,          V_21:32
+0040110d.16     SHL          V_21:32,             7:32,          V_22:32
+0040110d.17      OR          V_20:32,          V_22:32,          V_23:32
+0040110d.18      OR          V_18:32,          V_23:32,          V_24:32
+0040110d.19      OR           R_OF:1,              0:1,          V_25:32
+0040110d.1a     SHL          V_25:32,             b:32,          V_26:32
+0040110d.1b      OR          V_24:32,          V_26:32,          V_27:32
+0040110d.1c      OR          V_16:32,          V_27:32,      R_EFLAGS:32
+0040110d.1d     STR          V_05:32,                 ,         R_EBX:32
+;
+; asm: loop 0xfffffffffffffff6
+; data (2): e2 f4
+;
+0040110f.00     SUB         R_ECX:32,             1:32,          V_01:32
+0040110f.01     STR          V_01:32,                 ,         R_ECX:32
+0040110f.02      EQ          V_01:32,             0:32,           V_03:1
+0040110f.03     NOT           V_03:1,                 ,           V_02:1
+0040110f.04     JCC           V_02:1,                 ,        401105.00
+0040110f.05     JCC              1:1,                 ,        401111.00
+;
+; asm: mov byte ptr [edi], 0
+; data (3): c6 07 00
+;
+00401111.00     STM              0:8,                 ,         R_EDI:32
+;
+; asm: push 0x409185
+; data (5): 68 85 91 40 00
+;
+00401114.00     SUB         R_ESP:32,             4:32,          V_01:32
+00401114.01     STR          V_01:32,                 ,         R_ESP:32
+00401114.02     STM        409185:32,                 ,          V_01:32
+;
+; asm: lea eax, [ebp - 0x21]
+; data (3): 8d 45 df
+;
+00401119.00     ADD         R_EBP:32,      ffffffdf:32,         R_EAX:32
+;
+; asm: push eax
+; data (1): 50
+;
+0040111c.00     SUB         R_ESP:32,             4:32,          V_02:32
+0040111c.01     STR          V_02:32,                 ,         R_ESP:32
+0040111c.02     STM         R_EAX:32,                 ,          V_02:32
+;
+; asm: call 0x1f1
+; data (5): e8 ec 01 00 00
+;
+0040111d.00     SUB         R_ESP:32,             4:32,          V_01:32
+0040111d.01     STR          V_01:32,                 ,         R_ESP:32
+0040111d.02     STM        401122:32,                 ,          V_01:32
+0040111d.03     JCC              1:1,                 ,        40130e.00
+;
+; asm: leave
+; data (1): c9
+;
+00401122.00     STR         R_EBP:32,                 ,          V_00:32
+00401122.01     LDM          V_00:32,                 ,         R_EBP:32
+00401122.02     ADD          V_00:32,             4:32,         R_ESP:32
+;
+; asm: ret 8
+; data (3): c2 08 00
+;
+00401123.00     LDM         R_ESP:32,                 ,          V_01:32
+00401123.01     ADD         R_ESP:32,             c:32,          V_02:32
+00401123.02     STR          V_02:32,                 ,         R_ESP:32
+00401123.03     JCC              1:1,                 ,          V_01:32
+
